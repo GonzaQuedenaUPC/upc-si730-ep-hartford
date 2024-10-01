@@ -8,8 +8,9 @@ import Aura from '@primevue/themes/aura';
 import 'primeflex/primeflex.css';
 
 //PrimeVue components
-import Toolbar from "primevue/toolbar";
 import Card from "primevue/card";
+import Button from "primevue/button";
+import Toolbar from "primevue/toolbar";
 import SelectButton from "primevue/selectbutton";
 
 const app = createApp(App);
@@ -26,6 +27,7 @@ app.use(PrimeVue, {
 
 app.component('pv-toolbar', Toolbar)
     .component('pv-card', Card)
+    .component('pv-button', Button)
     .component('pv-select-button', SelectButton);
 
 app.mount('#app');
