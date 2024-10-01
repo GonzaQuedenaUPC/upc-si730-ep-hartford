@@ -15,6 +15,9 @@ export default {
   <nav class="nav">
     <toolbar/>
   </nav>
+  <main class="main">
+    <router-view/>
+  </main>
 </template>
 
 <style scoped>
