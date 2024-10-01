@@ -1,6 +1,12 @@
 <script>
+import LanguageSelector from './language-selector.component.vue'
+
 export default {
-  name: "toolbar"
+  name: "toolbar",
+
+  components: {
+    LanguageSelector
+  }
 }
 </script>
 
@@ -35,6 +41,10 @@ export default {
             </pv-button>
           </router-link>
         </li>
+
+        <li class="navbar__item">
+          <language-selector/>
+        </li>
       </ul>
     </template>
   </pv-toolbar>
@@ -46,7 +56,7 @@ export default {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 20px;
+  padding: 20px 40px;
 }
 
 .navbar__logo img {
