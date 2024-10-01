@@ -13,6 +13,9 @@ import Button from "primevue/button";
 import Toolbar from "primevue/toolbar";
 import SelectButton from "primevue/selectbutton";
 
+//i18n plugin
+import i18n from './i18n'
+
 const app = createApp(App);
 
 app.use(PrimeVue, {
@@ -24,6 +27,8 @@ app.use(PrimeVue, {
         }
     }
 });
+
+app.use(i18n);
 
 app.component('pv-toolbar', Toolbar)
     .component('pv-card', Card)
