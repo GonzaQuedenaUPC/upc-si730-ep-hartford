@@ -27,7 +27,7 @@ export default {
     <template #end>
       <ul class="navbar__list">
         <li class="navbar__item">
-          <router-link to="">
+          <router-link to="/">
             <pv-button>
               Home
             </pv-button>
