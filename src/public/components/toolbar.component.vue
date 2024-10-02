@@ -35,7 +35,7 @@ export default {
         </li>
 
         <li class="navbar__item">
-          <router-link to="">
+          <router-link to="/examiner-performance-overview">
             <pv-button>
               Examiner Performance Overview
             </pv-button>
