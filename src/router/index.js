@@ -1,6 +1,6 @@
 import {createRouter, createWebHistory} from "vue-router";
 import HomeComponent from "../public/pages/home.component.vue";
-import ExaminerPerformanceOverviewComponent from "../public/pages/examiner-performance-overview.component.vue";
+import ExaminerPerformanceOverviewComponent from "../nursing/pages/examiner-performance-overview.component.vue";
 
 const router = createRouter({
     history: createWebHistory(),
